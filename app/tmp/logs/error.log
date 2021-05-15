@@ -1,0 +1,433 @@
+2021-05-14 20:57:40 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:00:55 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:00:56 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:00:57 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:01:06 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:01:07 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:01:08 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:01:09 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:01:09 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:01:33 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:01:34 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:05:43 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:05:44 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:07:16 Error: [CakeSessionException] Unable to configure the session, setting session.use_trans_sid failed.
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(613): CakeSession::_configureSession()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(626): CakeSession::_cookieName()
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/CakeSession.php(248): CakeSession::_hasSession()
+#3 /opt/lampp/htdocs/test-app/lib/Cake/View/Helper/FlashHelper.php(72): CakeSession::check('Message.flash')
+#4 /opt/lampp/htdocs/test-app/app/View/Layouts/default.ctp(22): FlashHelper->render()
+#5 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(971): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(546): View->_render('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(481): View->renderLayout('\t<div class="co...', 'default')
+#9 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, 'default')
+#10 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-05-14 21:18:18 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/Model/Datasource/DboSource.php(271): Mysql->connect()
+#1 /opt/lampp/htdocs/test-app/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Model/Model.php(3646): ConnectionManager::getDataSource('default')
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Model/Model.php(3673): Model->setSource('synonyms')
+#5 /opt/lampp/htdocs/test-app/lib/Cake/Model/Model.php(3164): Model->getDataSource()
+#6 /opt/lampp/htdocs/test-app/lib/Cake/Model/Model.php(3073): Model->_findCount('before', Array)
+#7 /opt/lampp/htdocs/test-app/lib/Cake/Model/Model.php(3007): Model->buildQuery('count', Array)
+#8 /opt/lampp/htdocs/test-app/app/Model/Synonym.php(14): Model->find('count', Array)
+#9 /opt/lampp/htdocs/test-app/app/Controller/PagesController.php(176): Synonym->wordExist('because')
+#10 /opt/lampp/htdocs/test-app/app/Controller/PagesController.php(289): PagesController->getSynonymByWord(Array, Array, '6')
+#11 [internal function]: PagesController->home()
+#12 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#13 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#15 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-05-15 17:32:39 Error: [ParseError] syntax error, unexpected ')', expecting end of file
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:02 Error: [ParseError] syntax error, unexpected ')', expecting end of file
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:03 Error: [ParseError] syntax error, unexpected ')', expecting end of file
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:24 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:25 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:25 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:26 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:26 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:26 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:26 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:37 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:38 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:38 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:39 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:39 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:40 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2021-05-15 17:33:43 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /test-app/
+Stack Trace:
+#0 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(933): View->_evaluate('/opt/lampp/htdo...', Array)
+#1 /opt/lampp/htdocs/test-app/lib/Cake/View/View.php(473): View->_render('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/test-app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/lampp/htdocs/test-app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/test-app/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
